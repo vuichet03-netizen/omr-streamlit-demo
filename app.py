@@ -462,7 +462,7 @@ def render_home() -> None:
         "TỔNG QUAN", "Hệ thống chấm trắc nghiệm OMR",
         "Tạo phiếu in ra giấy, chụp bằng điện thoại, hệ thống tự động nắn phiếu theo 4 marker, "
         "đọc ô tô bằng fill ratio và chấm điểm theo đáp án từng mã đề.",
-        ["OpenCV thuần túy", "Không dùng ML", "Chạy offline"],
+        ["OpenCV thuần túy", "Không dùng ML", "Chạy ngay trên web"],
         "hero-blue",
     )
     c1, c2, c3 = st.columns(3)
